@@ -12,7 +12,8 @@ const ProfileMenu = () => {
           <img
             src={session?.user?.image || ''}
             className="rounded-full w-12 h-12 border-4 border-gray-100 transition hover:border-gray-300 hover:cursor-pointer"
-            alt="profile image" />
+            alt="profile image"
+            referrerPolicy='no-referrer' />
         </Menu.Button>
       </div>
       <Transition
